@@ -25,7 +25,7 @@ $num_contacts = $pdo->query('SELECT COUNT(*) FROM gejala')->fetchColumn();
 <?=template_header('Read')?>
 
 <div class="content read">
-	<h2>Read Contacts</h2>
+	<h2>Gejala</h2>
 	<a href="create.php" class="create-contact">Tambah Gejala</a>
 	<table>
         <thead>

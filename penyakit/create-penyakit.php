@@ -13,7 +13,7 @@ if (!empty($_POST)) {
 
 
     // Insert new record into the contacts table
-    $stmt = $pdo->prepare('INSERT INTO gejala VALUES (?, ?, ?   )');
+    $stmt = $pdo->prepare('INSERT INTO gejala VALUES (?, ?, ?)');
     $stmt->execute([$id, $kode_gejala, $nama_gejala]);
     // Output message
     $msg = 'Created Successfully!';
@@ -24,7 +24,7 @@ if (!empty($_POST)) {
 <?=template_header('Create')?>
 
 <div class="content update">
-	<h2>Create Contact</h2>
+	<h2>Gejala</h2>
     <form action="create.php" method="post">
         <label for="id">ID</label>
         <label for="kode_gejala">Kode Gejala</label>

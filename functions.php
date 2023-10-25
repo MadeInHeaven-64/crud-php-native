@@ -25,8 +25,11 @@ echo <<<EOT
     <nav class="navtop">
     	<div>
     		<h1>Website Title</h1>
-            <a href="index.php"><i class="fas fa-home"></i>Penyakit</a>
-    		<a href="read.php"><i class="fas fa-address-book"></i>Gejala</a>
+            <a href="dashboard.php"><i class="fas fa-home"></i>Dashboard</a>
+			<a href="index.php"><i class="fas fa-flask"></i>Aturan</a>
+            <a href="index.php"><i class="fas fa-clipboard-check"></i>Penyakit</a>
+    		<a href="read.php"><i class="fas fa-stethoscope"></i>Gejala</a>
+			<a href="index.php"><i class="fas fa-user-circle"></i>Login</a>
     	</div>
     </nav>
 EOT;
